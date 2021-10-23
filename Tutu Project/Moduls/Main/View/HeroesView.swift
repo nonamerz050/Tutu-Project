@@ -10,7 +10,6 @@ import SwiftUI
 struct HeroesView: View {
     
     @ObservedObject var viewModel = HeroesViewModel()
-    @State var didAppear = false
     var body: some View {
         NavigationView {
             List(viewModel.heroes) { hero in

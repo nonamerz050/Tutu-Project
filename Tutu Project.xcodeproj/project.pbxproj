@@ -40,6 +40,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		529083FD27242F00006E6D2E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				522BBC26271B2C7D0066EC12 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		529083FE27242F0F006E6D2E /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+				529083FF27242F1C006E6D2E /* Main */,
+			);
+			path = Moduls;
+			sourceTree = "<group>";
+		};
+		529083FF27242F1C006E6D2E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5290840027242F26006E6D2E /* Model */,
+				5290840127242F56006E6D2E /* View */,
+				5290840227242FA8006E6D2E /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5290840027242F26006E6D2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				522BBC24271B288C0066EC12 /* SuperHeroModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5290840127242F56006E6D2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52B45562271AF6850027A3E6 /* HeroesView.swift */,
+				52A097F1271D99E0001917DE /* HeroDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5290840227242FA8006E6D2E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				522BBC28271B77410066EC12 /* HeroesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		52B45554271AF6850027A3E6 = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				52B45560271AF6850027A3E6 /* Tutu_ProjectApp.swift */,
-				522BBC24271B288C0066EC12 /* SuperHeroModel.swift */,
-				52B45562271AF6850027A3E6 /* HeroesView.swift */,
-				52A097F1271D99E0001917DE /* HeroDetailsView.swift */,
-				522BBC28271B77410066EC12 /* HeroesViewModel.swift */,
-				522BBC26271B2C7D0066EC12 /* NetworkManager.swift */,
+				529083FD27242F00006E6D2E /* Manager */,
+				529083FE27242F0F006E6D2E /* Moduls */,
 				52B45564271AF68B0027A3E6 /* Assets.xcassets */,
 				52B45566271AF68B0027A3E6 /* Preview Content */,
 			);

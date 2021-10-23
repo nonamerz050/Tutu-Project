@@ -25,6 +25,7 @@ struct Tutu_ProjectApp: App {
             case .inactive:
                 print("Scene is inactive")
             case .active:
+                viewModel.getData()
                 print("Scene is active")
             @unknown default:
                 print("Apple must have changed something")
